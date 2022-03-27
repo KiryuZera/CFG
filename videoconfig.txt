@@ -7,8 +7,8 @@
 	"setting.cl_ragdoll_self_collision"			"0"			//布娃娃碰撞		禁用:"0"/开:"1.0"
 	"setting.mat_forceaniso"					"1"			//纹理过滤等级		双线性:"1"/三线性:"1"/各向异性过滤:"2"/"4"/"8"/"16"
 	"setting.mat_mip_linear"					"0"			//线性过滤开关		双线性:"0"/三线性-16x各向异性:"1.0"
-	"setting.stream_memory"				       	"160000"	//纹理串流预算 		建议:"0":4-6GVRAM(无)/"16w":6GVRAM(很低)/"30w":6.5GVRAM(低)/"60w":7GVRAM(中)/"100w":8GVRAM(高)/"200w":10GVRAM(很高)/"300w":10+GVRAM(超高)
- 	"setting.mat_picmip"						"1"			//纹理贴图清晰度		糊:"2"/标清:"1"/高清:"0"
+	"setting.stream_memory"				       	"0"	//纹理串流预算 		建议:"0":4-6GVRAM(无)/"16w":6GVRAM(很低)/"30w":6.5GVRAM(低)/"60w":7GVRAM(中)/"100w":8GVRAM(高)/"200w":10GVRAM(很高)/"300w":10+GVRAM(超高)
+ 	"setting.mat_picmip"						"2"			//纹理贴图清晰度		糊:"2"/标清:"1"/高清:"0"
 	"setting.particle_cpu_level"				"0"			//特效细节			低:"0"/中:"1.0"/高:"2.0"
 	"setting.r_createmodeldecals"				"0"			//冲撞痕迹贴图等级	禁用:"0"/低:"0.0"/高:"1.0"
 	"setting.r_decals"						    "0"			//冲撞痕迹			禁用:"0"/低:"256"/高:"256"
@@ -22,8 +22,8 @@
 	"setting.dvs_enable"						"0"			//自适应分辨率帧率目标	禁用:"0"/开:"1.0"（配合自适应超级采样"1"使用）
 	"setting.dvs_gpuframetime_min"				"0"			//最小帧生成时间		默认:"15000"(120FPS:"7949" - "8200" 144FPS: "6592" - "6800" 183FPS: "5250" - "5350" 200FPS: "4750" - "4900")
 	"setting.dvs_gpuframetime_max"				"0"			//最大帧生成时间		默认:"16500"(120FPS:"7949" - "8200" 144FPS: "6592" - "6800" 183FPS: "5250" - "5350" 200FPS: "4750" - "4900")
-	"setting.defaultres"						"1920"		//水平分辨率-w
-	"setting.defaultresheight"					"1080"		//垂直分辨率-h   
+	"setting.defaultres"						"1366"		//水平分辨率-w
+	"setting.defaultresheight"					"768"		//垂直分辨率-h   
 	"setting.fullscreen"						"1"			//全屏		    禁用:"0"/开:"1.0"
 	"setting.nowindowborder"					"0"			//无边框		    禁用:"0"/开:"1.0"
 	"setting.volumetric_lighting"				"0"			//体积光		    禁用:"0"/开:"1.0"
